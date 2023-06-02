@@ -1,0 +1,15 @@
+img{
+    width: 150px;
+}
+
+footer img {
+    width: 75px;
+}
+
+.idiomas img{
+    width: 250px;
+}
+
+.softwares img{
+    margin-bottom: 10px;
+}
