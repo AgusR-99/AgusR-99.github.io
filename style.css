@@ -1,3 +1,8 @@
+:root {
+    --triangle-px: 180px;
+    --triangle-degrees: 45deg;
+  }
+
 img{
     width: 150px;
 }
@@ -12,4 +17,12 @@ footer img {
 
 .softwares img{
     margin-bottom: 10px;
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.whiten {
+    filter: brightness(0) invert(1);
 }
