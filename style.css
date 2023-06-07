@@ -26,3 +26,10 @@ footer img {
 .whiten {
     filter: brightness(0) invert(1);
 }
+
+@media (max-width: 768px) {
+    .header-img-wrapper {
+        text-align: center;
+      margin: 0 auto; /* Centra horizontalmente la imagen */
+    }
+  }
