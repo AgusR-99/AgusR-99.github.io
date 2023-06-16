@@ -44,9 +44,23 @@ footer img {
     font-family: 'Farsan', cursive;
 }
 
-.display-1 {
-    font-size: 3rem;
-}
+@media (min-width: 320px) {
+    .display-1 {
+        font-size: 3rem;
+    }
+  }
+
+  @media (min-width: 375px) {
+    .display-1 {
+        font-size: 3.5rem;
+    }
+  }
+
+  @media (min-width: 425px) {
+    .display-1 {
+        font-size: 4rem;
+    }
+  }
 
 @media (max-width: 768px) {
     .header-img-wrapper {
